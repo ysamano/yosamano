@@ -1,0 +1,19 @@
+# Theme metadata
+name = "yobanny"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#4E7563"
+
+# Menu
+menu_primary = "#FBFBFB"
+menu_text = "#2E3F46"
+menu_text_active = "#4E7563"
+menu_title = "#2E3F46"
+
+# Home sections
+background = "#FBFBFB"
+home_section_odd = "#FBFBFB"
+home_section_even = "#FBFBFB"

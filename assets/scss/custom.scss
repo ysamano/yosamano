@@ -1,0 +1,52 @@
+/* Whole document: */
+  
+  body {
+    margin-top: 100px !important;
+  }
+  
+  .section-heading h1 {
+  margin: 0 0 50px 0;
+  }
+  
+  .home-section.wg-about {
+    margin-top: -50px;
+  }
+  
+  .home-section.wg-portfolio {
+    margin-top: -100px;
+  }
+  
+  
+  
+  
+/*----NAV LINK HOVER ANIMATION -----*/
+/* from Desiree: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss */
+
+/* stroke */
+
+  a.nav-link,
+  a.nav-link:after,
+  a.nav-link:before {
+    transition: all .5s;
+  }
+
+  a.nav-link {
+    position: relative;
+  }
+
+  a.nav-link:after {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   width: 0%;
+   content: '.'; /* make invisible, dot beneath links */
+   color: transparent;
+   background: #416253;
+   height: 2px;
+  }
+
+  a.nav-link:hover:after {
+  width: 70%;
+  }
