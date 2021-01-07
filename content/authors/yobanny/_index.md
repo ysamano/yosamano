@@ -20,7 +20,7 @@ highlight_name: false
 #organizations:
 #- name: Stanford University
 #  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+role: Aprendiz de análisis y visualización de datos
 social:
 #- icon: envelope
 #  icon_pack: fas
