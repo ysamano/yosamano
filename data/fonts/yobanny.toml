@@ -1,0 +1,12 @@
+# Font style metadata
+name = "yobanny"
+
+# Optional Google font URL
+google_fonts = "family=Cormorant+Garamond:wght@400;500;600;700&family=Cutive+Mono&family=Forum&family=Raleway:wght@300;400;500;600"
+
+# Font families
+heading_font = "Cormorant Garamond"
+body_font = "Raleway"
+nav_font = "Raleway"
+mono_font = "Cutive Mono"
+
