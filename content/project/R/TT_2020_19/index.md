@@ -1,5 +1,5 @@
 ---
-title: 'Periodic Table Animal Crossing'
+title: 'Periodic Table Of Animal Crossing'
 author: Yobanny Samano
 date: '2020-05-08'
 tags:
