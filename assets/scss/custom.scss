@@ -4,24 +4,23 @@
     margin-top: 100px !important;
   }
   
-  .section-heading h1 {
-  margin: 0 0 50px 0;
+  .navbar-brand {
+    font-weight: 500;
   }
   
-  .home-section.wg-about {
-    margin-top: -50px;
+  .navbar-light .navbar-brand {
+    color: #182125;
   }
-  
-  .home-section.wg-portfolio {
-    margin-top: -100px;
+
+/* from Desiree: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss */  
+  @media (max-width: 991.98px) { 
+    .navbar-collapse {
+      background-color: #F3F7F5d9 !important;
+    }
   }
-  
-  
-  
   
 /*----NAV LINK HOVER ANIMATION -----*/
-/* from Desiree: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss */
-
+/* from Desiree*/ 
 /* stroke */
 
   a.nav-link,
@@ -50,3 +49,73 @@
   a.nav-link:hover:after {
   width: 70%;
   }
+  
+/* -------HOME SECTION------- */
+  
+  .home-section {
+    padding: 0 0 120px 0;
+}
+  
+  .section-heading h1 {
+  margin: 0 0 50px 0;
+  }
+  
+/* -------About------- */
+  .home-section.wg-about {
+    margin-top: -50px;
+  }
+  
+  .portrait-title h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0px 0 10px 0;
+}
+    
+/* -------Portfolio------- */
+  .home-section.wg-portfolio {
+    margin-top: -80px;
+  }
+  
+  .btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active {
+    background-color: #293D33 !important;
+  }
+  
+  
+  .card .card-text {
+    padding: 0 1rem;
+  }
+  
+  .card h4 {
+    font-size: 1rem;
+    text-transform: NONE;
+  }
+  
+  .card h4 a {
+    color: #474747;
+  }
+  
+/* -----titles on blog index-----*/
+  .media.stream-item .article-title, .card-simple .article-title {
+    font-size: 1.4rem;
+  }
+  
+  .article-style h3 {
+    font-size: 1.3rem;
+  }
+  
+/* -------Code font------- */
+  pre, code {
+    color: #c7254e; /* #BA4E3B */
+    background-color: #f9f2f4; /* #FDF4ED */
+  }
+  
+/* -------size------- */
+  .hljs {
+  font-size: 17px;
+  background: #E7EFEB;
+  }
+  
+
+
