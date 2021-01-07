@@ -2,11 +2,10 @@
 name = "yobanny"
 
 # Optional Google font URL
-google_fonts = "family=Cormorant+Garamond:wght@400;500;600;700&family=Cutive+Mono&family=Forum&family=Raleway:wght@300;400;500;600"
+google_fonts = "family=Cormorant:wght@300;400;600;700&family=Cutive+Mono&family=Montserrat:wght@300&family=Raleway:ital,wght@0,300;0,400;0,500;1,600"
 
 # Font families
-heading_font = "Cormorant Garamond"
+heading_font = "Cormorant"
 body_font = "Raleway"
 nav_font = "Raleway"
 mono_font = "Cutive Mono"
-
