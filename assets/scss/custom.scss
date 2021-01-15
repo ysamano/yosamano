@@ -1,16 +1,18 @@
 /* Whole document: */
-  
-  body {
-    margin-top: 100px !important;
+body {
+  margin-top: 100px !important;
+}
+
+/*************************************************
+ *  Navigation bar
+ **************************************************/
+.navbar-brand {
+  font-weight: 500;
   }
   
-  .navbar-brand {
-    font-weight: 500;
-  }
-  
-  .navbar-light .navbar-brand {
-    color: #182125;
-  }
+.navbar-light .navbar-brand {
+  color: #182125;
+}
 
 /* from Desiree: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss */  
   @media (max-width: 991.98px) { 
@@ -18,90 +20,108 @@
       background-color: #F3F7F5d9 !important;
     }
   }
-  
-/*----NAV LINK HOVER ANIMATION -----*/
+
 /* from Desiree*/ 
 /* stroke */
 
-  a.nav-link,
-  a.nav-link:after,
-  a.nav-link:before {
-    transition: all .5s;
-  }
+a.nav-link,
+a.nav-link:after,
+a.nav-link:before {
+  transition: all .5s;
+}
 
-  a.nav-link {
-    position: relative;
-  }
+a.nav-link {
+  position: relative;
+}
 
-  a.nav-link:after {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin: auto;
-   width: 0%;
-   content: '.'; /* make invisible, dot beneath links */
-   color: transparent;
-   background: #416253;
-   height: 2px;
-  }
+a.nav-link:after {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ width: 0%;
+ content: '.'; /* make invisible, dot beneath links */
+ color: transparent;
+ background: #416253;
+ height: 2px;
+}
 
-  a.nav-link:hover:after {
-  width: 70%;
-  }
+a.nav-link:hover:after {
+width: 70%;
+}
   
 /* -------HOME SECTION------- */
   
-  .home-section {
-    padding: 0 0 120px 0;
-}
-  
-  .section-heading h1 {
-  margin: 0 0 50px 0;
+.home-section {
+  padding: 0 0 120px 0;
   }
+  
+ .section-heading h1 {
+ margin: 0 0 50px 0;
+ }
   
 /* -------About------- */
-  .home-section.wg-about {
-    margin-top: -50px;
+.home-section.wg-about {
+  margin-top: -50px;
   }
   
-  .portrait-title h3 {
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: "Montserrat";
-    color: rgba(0, 0, 0, 0.75);
-    margin: 0px 0 10px 0;
-}
+.portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0px 0 10px 0;
+  }
     
 /* -------Portfolio------- */
-  .home-section.wg-portfolio {
-    margin-top: -80px;
+.home-section.wg-portfolio {
+ margin-top: -80px;
   }
-  
-  .btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active {
+
+.btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active {
     background-color: #293D33 !important;
   }
-  
-  .card .card-text {
-    padding: 0 1rem;
-  }
-  
-  .card h4 {
-    font-size: 1rem;
-    text-transform: NONE;
-  }
-  
-  .card h4 a {
+
+/*************************************************
+ *  Card component
+ **************************************************/
+.card h4 {
+  font-size: 1rem;
+  text-transform: NONE;
+}
+
+.card h4 a {
     color: #474747;
+}
+ 
+.card .card-text {
+  padding: 0 1rem;
+}
+  
+/* -----Article-----*/
+.media.stream-item .article-title, .card-simple .article-title {
+  font-size: 1.4rem;
+  }
+
+.article-style a {
+  color: #AE5132;
+  }
+
+.article-style h3 {
+  font-size: 1.3rem;
   }
   
-/* -----titles on blog index-----*/
-  .media.stream-item .article-title, .card-simple .article-title {
-    font-size: 1.4rem;
-  }
-  
-  .article-style h3 {
-    font-size: 1.3rem;
+.article-container {
+  max-width: 800px;
+}
+
+.article-style  a:hover {
+  border-bottom: 1.5px #CD7051 solid;
+  text-decoration: none !important;
+  color: #CD7051;
+  cursor: pointer;
+  transition: color 0.6s ease;
   }
   
 /* -------Code------- */
@@ -110,20 +130,8 @@
     background-color: #f9f2f4; /* #FDF4ED */
   }
   
-  .hljs {
-    font-size: 17px;
-    background: #E7EFEB;
-  }
-  
-  .article-style a {
-    color: #AE5132;
-  }
-  
-  .article-style  a:hover {
-    border-bottom: 1.5px #CD7051 solid;
-    text-decoration: none !important;
-    color: #CD7051;
-    cursor: pointer;
-    transition: color 0.6s ease;
-  }
-
+ .hljs {
+   font-size: 17px;
+   background: #E7EFEB;
+ }
+ 
